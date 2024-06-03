@@ -1,8 +1,45 @@
-# React + Vite
+#Ecommerce Project
+Overview
+This project is a full-stack ecommerce application built using React.js for the frontend, Express.js for the backend, and Mongoose for database interactions. The application features an intuitive user interface for customers to browse and purchase products, as well as an admin panel that allows administrators to manage products without needing to interact directly with the database.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Interface:
 
-Currently, two official plugins are available:
+Browse products by category
+View product details
+Add products to cart
+Checkout process
+Admin Panel:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View list of products
+Add new products
+Update existing products
+Delete products
+Authentication:
+
+User registration
+User login
+Protected routes for admin panel
+Technologies Used
+Frontend:
+
+React.js
+Redux (for state management)
+React Router (for navigation)
+Backend:
+
+Express.js
+Node.js
+Database:
+
+MongoDB
+Mongoose (ODM for MongoDB)
+Authentication:
+
+JSON Web Tokens (JWT)
+bcrypt (for password hashing)
+Installation
+Prerequisites
+Node.js (v14.x or later)
+npm (v6.x or later) or Yarn (v1.x or later)
+MongoDB (locally installed or a cloud instance)
